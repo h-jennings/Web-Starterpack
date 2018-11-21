@@ -1,16 +1,21 @@
 {
-  "name": "gulptesting",
+  "name": "nodemodules.nosync",
   "version": "1.0.0",
-  "description": "",
+  "description": "node modules for web startpack",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "Web-Starterpack"
+  },
+  "author": "Hunter Jennings",
   "license": "ISC",
   "devDependencies": {
-    "browser-sync": "^2.24.6",
+    "browser-sync": "^2.26.3",
     "gulp": "^3.9.1",
-    "gulp-sass": "^4.0.1"
+    "gulp-imagemin": "^5.0.3",
+    "gulp-sass": "^4.0.2"
   }
 }
