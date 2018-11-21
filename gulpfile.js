@@ -4,6 +4,11 @@ const image = require('gulp-imagemin');
 const browserSync = require('browser-sync').create();
 
 
+gulp.task('copy', () => gulp
+  .src('src/js/*')
+  .pipe(gulp.dest('dist/js')));
+
+
 gulp.task('image', () => gulp
   .src('src/assets/*')
   .pipe(image())
