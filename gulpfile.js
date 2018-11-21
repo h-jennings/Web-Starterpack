@@ -31,7 +31,7 @@ gulp.task('browserSync', () => {
 // Watchers
 gulp.task('watch', ['browserSync', 'sass', 'image'], () => {
   gulp.watch('src/scss/**/*.scss', ['sass']);
-  gulp.watch('src/assets/*');
+  gulp.watch('src/assets/*', ['image']);
   gulp.watch('dist/*.html', browserSync.reload);
 });
 
